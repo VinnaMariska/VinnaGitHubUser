@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.VinnaGitHub3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_github"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_github_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DemoSubmissionBFAA">
+        <activity
+            android:name="com.example.VinnaGitHub3.ui.setting.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.VinnaGitHub3.ui.favorite.FavoriteActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.VinnaGitHub3.ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.VinnaGitHub3.ui.detail.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.VinnaGitHub3.ui.main.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
