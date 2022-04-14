@@ -6,3 +6,4 @@ data class SearchResponse(
     @field:Json(name = "items")
     val items: List<User>
 )
+//vinna mariska
